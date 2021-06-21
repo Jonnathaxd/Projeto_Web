@@ -11,7 +11,8 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  list-style: none;
+  font-family: "Dekko", cursive;
+
 }
 /*                  HEADER               */
 header {
@@ -24,6 +25,8 @@ header {
 
 header ul {
   display: flex;
+  list-style: none;
+
 }
 
 header ul li a {
@@ -33,7 +36,6 @@ header ul li a {
   background-color: var(--diver_main_color);
   color: white;
   font-weight: bolder;
-  font-family: "Dekko", cursive;
   text-align: center;
   width: 130px;
   height: 100%;
@@ -52,4 +54,11 @@ header ul li a:hover {
 
 main {
   background-color: white;
+}
+
+/*                  FOOTER                   */
+footer {
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
 }
