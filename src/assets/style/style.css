@@ -1,0 +1,76 @@
+:root {
+  --main_color: #3c0470;
+  --secundary_main_color: #8e41d5;
+  --diver_main_color: #a69e00;
+  --secundary_diver_color: #fff740;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+#container {
+  background-image: url(../img/t6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#content {
+  height: 100vh;
+  padding: 5rem;
+  background: linear-gradient(to right, #3c0470ef 35%, #8e41d5ef 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/*              LEFT CONTENT           */
+#content section {
+  width: 250px;
+}
+#content section h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 4.5rem;
+  color: white;
+}
+#content section p {
+  font-family: "Dekko", cursive;
+  color: white;
+}
+
+/*              RIGHT CONTENT          */
+#content div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+#content div img {
+  width: 200px;
+  margin-bottom: 2rem;
+}
+
+#content div a {
+  align-self: center;
+  padding: 0.9rem;
+  color: white;
+  width: 200px;
+  border-radius: 0.6rem;
+  background-color: var(--diver_main_color);
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  transition: 0.6s;
+  font-family: "Dekko", cursive;
+
+}
+
+#content div a:hover {
+  background-color: white;
+  color: var(--diver_main_color);
+}

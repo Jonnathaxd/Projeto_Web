@@ -1,0 +1,31 @@
+:root {
+  --main_color: #3c0470;
+  --secundary_main_color: #8e41d5;
+  --diver_main_color: #a69e00;
+  --secundary_diver_color: #fff740;
+}
+
+main div {
+  position: relative;
+  
+}
+main div h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #8e41d5;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+
+}
+main div img {
+  width: 100%;
+  
+}
+
+main {
+    
+}
