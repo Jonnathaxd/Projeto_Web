@@ -7,7 +7,6 @@
 
 main div {
   position: relative;
-  
 }
 main div h1 {
   position: absolute;
@@ -19,41 +18,48 @@ main div h1 {
   padding: 2rem;
   text-align: center;
   color: white;
-
 }
 main div img {
   width: 100%;
-  
 }
 /*                  Article             */
 article {
-    max-width: 65em;
-    margin: auto;
-    background-color: whitesmoke;
+  max-width: 65em;
+  margin: auto;
+  background-color: whitesmoke;
 }
 article header {
-    background-color: whitesmoke;
-    padding:0;
+  background-color: whitesmoke;
+  padding: 0;
 }
 article header p {
-    font-size:1rem;
-    margin-top:2.4rem;
-
+  font-size: 1rem;
+  margin-top: 2.4rem;
 }
 hr {
-    margin-bottom: 1.4rem;
+  margin-bottom: 1.4rem;
 }
 ol li {
-    list-style-position: inside;
-    text-indent: 20px;
+  list-style-position: inside;
+  text-indent: 20px;
 }
 
-h2, h3 {
-    margin: 1rem 0;
+h2,
+h3 {
+  margin: 1rem 0;
 }
 
 main article p {
-    margin: 0.8rem;
-    text-align: justify ;
+  margin: 0.8rem;
+  text-align: justify;
 }
 
+#youtube_media {
+  max-width: 65em;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.193);
+  box-shadow: 0px 0px 8px black;
+  text-align: center;
+  padding: 15px;
+  border-radius: 6px;
+}
