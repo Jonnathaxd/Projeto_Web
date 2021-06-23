@@ -16,35 +16,43 @@
   </head>
   <body>
     <header>
-      <a href="./index.html">
-        <img src="./assets/img/mainLogo.png" alt="logo" width="120" />
-      </a>
-      <ul>
-        <li><a href="./article.html">HOME</a></li>
-        <li><a href="./about.html">SOBRE</a></li>
-        <li><a href="./contact.html">CONTATO</a></li>
-      </ul>
+      <nav>
+        <a href="./index.html">
+          <img src="./assets/img/mainLogo.png" alt="logo" width="120" />
+        </a>
+        <ul>
+          <li><a href="./article.html">HOME</a></li>
+          <li><a href="./about.html">SOBRE</a></li>
+          <li><a href="./contact.html">CONTATO</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <div>
         <h1>QUAL LINGUAGEM DE PROGRAMAÇÃO ESCOLHER ?</h1>
-        <img src="./assets/img/t4.jpg" alt="" />
+        <picture>
+          <source
+            media="(min-width: 900px)"
+            srcset="./assets/img/t4.jpg"
+            type="image/jpg"
+          />
+          <img src="./assets/img/background.jpg" alt="Imagem de fundo." />
+        </picture>
       </div>
       <article>
         <header>
-         <p><a href="">ARTIGO</a> => QUAL LINGUAGEM DE PROGRAMAÇÃO ESCOLHER ?</p>
+          <p>
+            <a href="">ARTIGO</a> => QUAL LINGUAGEM DE PROGRAMAÇÃO ESCOLHER ?
+          </p>
         </header>
-        <hr>
+        <hr />
         <p>
           Atualmente com a enorme quantidade de informação, a maior dúvida na
           vida de um programador iniciante é:<br />Qual linguagem de programação
-          escolher ? e por quê ?
-          Essa pergunta acaba sendo bem complexa, pois devemos levar em conta as
-          varias possíbilidades futuras.
+          escolher ? e por quê ? Essa pergunta acaba sendo bem complexa, pois
+          devemos levar em conta as varias possíbilidades futuras.
         </p>
-        <p>
-          
-        </p>
+        <p></p>
         <p>
           Segundo
           <a href="https://becode.com.br/" target="_blank">Becode</a> devemos
@@ -143,11 +151,22 @@
           erro de menosprezar essas duas tecnologias!
         </p>
       </article>
+      <div id="youtube_media">
+        <h2>Por qual linguagem de programação começar?</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Hxk3XmK_WU4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </main>
     <footer>
-      <P>CREATE WITH ❤</P>
-      <P>Copyright © 2021</P>
-      
+      <p>CREATE WITH ❤</p>
+      <p>Copyright © 2021</p>
     </footer>
   </body>
 </html>
