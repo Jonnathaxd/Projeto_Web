@@ -12,24 +12,7 @@
     <link rel="stylesheet" href="./assets/style/main_template.css" />
 
     <title>DEVSPEED - SOBRE</title>
-    <style>
-      table {
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        width: 300px;
-        border: 2px dashed blue;
-
-      }
-      th{
-        text-align: center;
-        border: 2px dashed black;
-      } 
-      td {
-        padding: 5px;
-        border: 1px dashed black;
-      }
-    </style>
+    <link rel="stylesheet" href="./assets/style/about.css" />
   </head>
   <body>
     <header>
@@ -44,15 +27,7 @@
         </ul>
       </nav>
     </header>
-    <main
-      style="
-        max-width: 65em;
-        margin: auto;
-        text-align: center;
-        padding: 0 5rem 5rem 5rem;
-        margin-top: 10rem;
-      "
-    >
+    <main>
       <h1>Sobre</h1>
       <p>
         O projeto foi criado por: Geova Jonnatha Correia da Silva e Maxiel
@@ -67,11 +42,59 @@
           <td>Qualquer Coisa</td>
           <td>Qualquer Coisa 2</td>
         </tr>
+        <tr>
+          <td>Qualquer Coisa 3</td>
+          <td>Qualquer Coisa 4</td>
+        </tr>
+        <tr>
+          <td>Qualquer Coisa 5</td>
+          <td>Qualquer Coisa 6</td>
+        </tr>
       </table>
+      <div class="limit_collapse">
+        <button class="expand_button">Expanda o texto 1</button>
+        <div class="content_collapse">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quos
+          hic sapiente impedit ex dolorem optio excepturi, velit, itaque earum
+          ad id tempore inventore voluptatum fugit minus autem qui error?
+        </div>
+      </div>
+      <div class="limit_collapse">
+        <button class="expand_button">Expanda o texto 2</button>
+        <div class="content_collapse">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quos
+          hic sapiente impedit ex dolorem optio excepturi, velit, itaque earum
+          ad id tempore inventore voluptatum fugit minus autem qui error?
+        </div>
+      </div>
+      <div class="limit_collapse">
+        <button class="expand_button">Expanda o texto 3</button>
+        <div class="content_collapse">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quos
+          hic sapiente impedit ex dolorem optio excepturi, velit, itaque earum
+          ad id tempore inventore voluptatum fugit minus autem qui error?
+        </div>
+      </div>
+
+
     </main>
     <footer>
       <p>CREATE WITH ❤</p>
       <p>Copyright © 2021</p>
     </footer>
+
+    <script>
+      document.querySelectorAll(".expand_button").forEach((button)=>{
+        button.addEventListener("click", ()=>{
+          const conteudo = button.nextElementSibling
+          button.classList.toggle("expand_button_clicado")
+          if(button.classList[1]=="expand_button_clicado"){
+            conteudo.style.maxHeight = conteudo.scrollHeight + "px"
+          }else {
+            conteudo.style.maxHeight = 0 + "px"
+          }
+        })
+      })
+    </script>
   </body>
 </html>
