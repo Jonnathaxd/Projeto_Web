@@ -11,3 +11,7 @@
 <p>Já havia adicionado tudo na entrega anterior</p>
 <p>A única coisa que foi adicionado foi a tabela, no arquivo sobre.html na qual quebra totalmente o estilo da página</p>
 
+<h2>PROJ PARTE 3</h2>
+<p>Foi corrigido o que ficou faltando nas demais fases do projeto, que foi colocar a tabela zebrada, achei que era apenas uma tabela...</p>
+<p>Adicionei um source que ficou faltando, que eram 3 imagens e eu coloquei apenas 2....</p>
+<p>Criei um botão com animação colapso</p>
